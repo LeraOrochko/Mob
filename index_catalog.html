@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Мобильное приложение для студентов - главная страница">
+    <title>Главная | Студенческое приложение</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <button class="header__btn" aria-label="Меню">
+            <img src="images/icon-burger.svg" alt="Меню">
+        </button>
+        <div class="header__user">
+            <p class="header__greeting">Привет user228</p>
+            <p class="header__role">Студент</p>
+        </div>
+        <button class="header__btn" aria-label="Календарь">
+            <img src="images/icon-calendar.svg" alt="Календарь">
+        </button>
+    </header>
+
+    <main class="lesson">
+        <div class="lesson__text">
+            <p class="lesson__label">Следующий урок</p>
+            <h1 class="lesson__title">ЧТ 16 Марта,<br>11:00 по МСК</h1>
+            <p class="lesson__subtitle">Основы алгоритмизации и программирования</p>
+            <button class="lesson__arrow" aria-label="Перейти к уроку">
+                <img src="images/icon-arrow-right.svg" alt="Перейти">
+            </button>
+        </div>
+        <div class="lesson__image">
+            <img src="images/illustration-lesson.png" alt="Иллюстрация урока">
+        </div>
+    </main>
+
+    <section class="features">
+        <div class="features__header">
+            <h2 class="features__title">Дополнительные функции</h2>
+            <span class="features__more" aria-hidden="true">
+                <img src="images/icon-arrow-double.svg" alt="">
+            </span>
+        </div>
+        <div class="features__grid">
+            <a href="#" class="feature-card feature-card--library">
+                <span class="feature-card__icon"><img src="images/icon-library.svg" alt=""></span>
+                <span class="feature-card__label">Библиотека</span>
+                <span class="feature-card__arrow"><img src="images/icon-arrow-right.svg" alt=""></span>
+            </a>
+            <a href="#" class="feature-card feature-card--diary">
+                <span class="feature-card__icon"><img src="images/icon-diary.svg" alt=""></span>
+                <span class="feature-card__label">Дневник</span>
+                <span class="feature-card__arrow"><img src="images/icon-arrow-right.svg" alt=""></span>
+            </a>
+            <a href="#" class="feature-card feature-card--education">
+                <span class="feature-card__icon"><img src="images/icon-education.svg" alt=""></span>
+                <span class="feature-card__label">Образовательная база</span>
+                <span class="feature-card__arrow"><img src="images/icon-arrow-right.svg" alt=""></span>
+            </a>
+            <a href="#" class="feature-card feature-card--chat">
+                <span class="feature-card__icon"><img src="images/icon-chat.svg" alt=""></span>
+                <span class="feature-card__label">Чат</span>
+                <span class="feature-card__arrow"><img src="images/icon-arrow-right.svg" alt=""></span>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <nav class="footer__nav" aria-label="Основная навигация">
+            <a href="index_catalog.html" class="footer__link footer__link--active">Главная</a>
+            <a href="catalog.html" class="footer__link">Курсы</a>
+            <a href="#" class="footer__link">Профиль</a>
+        </nav>
+    </footer>
+
+    <script src="js/script.min.js"></script>
+</body>
+</html>
